@@ -3,6 +3,7 @@ title: KubeCon Valencia EU 2022 trip report
 date: 2022-06-05
 author: Karsten Wade @quaid
 description: This post from Operate First community lead Karsten Wade are his highlights from Valencia of discussions and activities of interest to the Operate First project.
+---
 
 **This post from Operate First community lead Karsten Wade are his highlights from Valencia of discussions and activities of interest to the Operate First project**
 
