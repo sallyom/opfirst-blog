@@ -2,7 +2,7 @@
 title: Distributed Tracing!
 date: 2022-07-06
 author: Sally Ann O'Malley
-description: A guide on how to collect traces from your instrumented application on Operate-First.
+description: A guide on how to collect traces from your instrumented application on the Operate First community cloud.
 tags:
   - Distributed Tracing
   - Red Hat Distributed Tracing Platform
@@ -16,22 +16,21 @@ collection of tools, APIs, and SDKs to instrument, generate, collect, and export
 OpenTelemetry (OTLP), end-users and developers are empowered to choose a telemetry backend that suits their needs. It is vendor neutral,
 open source, and is supported by industry leaders in the observability space. Perhaps you've been planning to add OTLP
 instrumentation to your applications. It is relatively straight-forward and usually involves a few lines of code. The more complicated issue is how
-to collect, export, and visualize the generated data. This post describes recent additions to the Operate-First cloud that have made it easy
+to collect, export, and visualize the generated data. This post describes recent additions to the Operate First community cloud that have made it easy
 for users to collect and analyze OTLP.
 
-Operate-First hosts a [community cloud](https://www.operate-first.cloud/community-cloud/).
-To learn more about the cloud and how you can access it, visit the [onboarding docs](https://www.operate-first.cloud/getting-started).
+To learn more about the Operate First [community cloud](https://www.operate-first.cloud/community-cloud/) and how you can access it, visit the [onboarding docs](https://www.operate-first.cloud/getting-started).
 If, like me, you're a developer wishing to deploy your applications and perform testing in a production environment,
 you might start [here](https://www.operate-first.cloud/developer). From there you can onboard your Kubernetes based cloud-native workloads with help
-from the Operate-First community.
+from the Operate First community.
 
-Recently, two operators were deployed on the Operate-First `Smaug` cluster that enable collection of OTLP data from
+Recently, two Operators were deployed on the Operate First `Smaug` cluster that enable collection of OTLP data from
 any application. The operators are `Red Hat Distributed Tracing Platform` and `Red Hat Distributed Tracing Data Collection`.
 The former includes a Jaeger operator for visualizing OTLP data and the latter includes the OpenTelemetry operator that
-manages namespaced OpenTelemetryCollectors to collect OTLP. These and many other Kubernetes operators are available from the
+manages namespaced OpenTelemetryCollectors to collect OTLP. These and many other Kubernetes Operators are available from the
 [Certified OpenShift Operators Hub](https://catalog.redhat.com/software/operators/explore). This post describes how to connect your
 applications and workloads to these distributed tracing operators to reach your observability goals. You might bring your instrumented applications
-to Operate-First, or you might use this post to collect OTLP data from another K8s cluster.
+to Operate First, or you might use this post to collect OTLP data from another K8s cluster.
 
 
 ### Table of Contents
